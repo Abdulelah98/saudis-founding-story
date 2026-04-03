@@ -16,7 +16,7 @@ const Index = () => {
         <StorySection />
         <ImageSections />
         <TimelineSection />
-        <QRSection />
+        
       </main>
       <FooterSection />
     </LanguageProvider>
