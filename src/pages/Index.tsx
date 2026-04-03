@@ -4,7 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import StorySection from "@/components/StorySection";
 import ImageSections from "@/components/ImageSections";
 import TimelineSection from "@/components/TimelineSection";
-import QRSection from "@/components/QRSection";
+
 import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
@@ -16,7 +16,7 @@ const Index = () => {
         <StorySection />
         <ImageSections />
         <TimelineSection />
-        <QRSection />
+        
       </main>
       <FooterSection />
     </LanguageProvider>
