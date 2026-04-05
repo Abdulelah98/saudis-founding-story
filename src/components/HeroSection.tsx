@@ -29,7 +29,7 @@ const HeroSection = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <div className="mb-6 gold-divider mx-auto w-24" />
-          <h1 className="text-gradient-gold font-arabic text-5xl font-bold leading-[1.5] pb-4 md:text-7xl lg:text-8xl" style={{ WebkitTextStroke: '0.3px currentColor' }}>
+          <h1 className="font-arabic text-5xl font-bold leading-[1.6] pb-2 text-primary md:text-7xl lg:text-8xl">
             {t.title}
           </h1>
           <div className="mt-6 gold-divider mx-auto w-24" />
