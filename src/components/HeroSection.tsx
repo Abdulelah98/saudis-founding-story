@@ -3,6 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { content } from "@/data/content";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@/assets/hero-diriyah.jpg";
+import trophyImage from "@/assets/founding-day-trophy.png";
 
 const HeroSection = () => {
   const { lang } = useLanguage();
@@ -24,9 +25,22 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="mb-8"
+        >
+          <img
+            src={trophyImage}
+            alt="يوم التأسيس السعودي - 300 عام"
+            className="mx-auto h-48 w-auto drop-shadow-2xl md:h-64 lg:h-72"
+          />
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
         >
           <div className="mb-6 gold-divider mx-auto w-24" />
           <h1 className="font-arabic text-5xl font-bold leading-[1.6] pb-2 text-primary md:text-7xl lg:text-8xl">
