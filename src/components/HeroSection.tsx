@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { content } from "@/data/content";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-diriyah.jpg";
+import heroVideo from "@/assets/hero-video.mp4.asset.json";
 import trophyImage from "@/assets/founding-day-trophy.png";
 
 const HeroSection = () => {
